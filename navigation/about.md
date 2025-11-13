@@ -135,4 +135,6 @@ Gallery of Pics, scroll to the right for more ...
   <img src="{{site.baseurl}}/images/about/claire.jpg" alt="Image 10">
   <img src="{{site.baseurl}}/images/about/grandkids.jpg" alt="Image 11">
   <img src="{{site.baseurl}}/images/about/farm.jpg" alt="Image 12">
+  <img src="{{site.baseurl}}/images/about/Lingloongfamily.jpg" alt="Image 13">
+  <img src="{{site.baseurl}}/images/about/Boba.jpg" alt="Image 14">
 </div>
