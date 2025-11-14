@@ -124,5 +124,8 @@ Gallery of Pics, scroll to the right for more ...
 </comment>
 <div class="image-gallery">
   <img src="{{site.baseurl}}/images/about/Lingloongfamily.jpg" alt="Image 1">
-  <img src="{{site.baseurl}}/images/about/Boba.jpg" alt="Image 2">
+  <img src="{{site.baseurl}}/images/about/Boba.jpg" alt="Image 2">  
+  <img src="{{site.baseurl}}/images/about/GrumpyBoba.jpg" alt="Image 3">
+  <img src="{{site.baseurl}}/images/about/MeandPapa.jpg" alt="Image 4">
+  <img src="{{site.baseurl}}/images/about/Plane.jpg" alt="Image 5">
 </div>
