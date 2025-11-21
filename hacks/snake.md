@@ -75,7 +75,7 @@ permalink: /snake/
     <div class="container bg-secondary" style="text-align:center;">
         <!-- Main Menu -->
         <div id="menu" class="py-4 text-light">
-            <p>Welcome to Snake, press <span style="background-color: #FFFFFF; color: #000000">space</span> to begin</p>
+            <p>Welcome to Snake,you will fail press <span style="background-color: #FFFFFF; color: #000000">space</span> to begin</p>
             <a id="new_game" class="link-alert">new game</a>
             <a id="setting_menu" class="link-alert">settings</a>
         </div>
@@ -99,6 +99,8 @@ permalink: /snake/
                 <label for="speed2">Normal</label>
                 <input id="speed3" type="radio" name="speed" value="35"/>
                 <label for="speed3">Fast</label>
+                <label for="speed4">Impossible</label>
+                <input id="speed4" type="radio" name="speed" value="10"/>
             </p>
             <p>Wall:
                 <input id="wallon" type="radio" name="wall" value="1" checked/>
@@ -378,6 +380,7 @@ permalink: /snake/
         // 150 = slow
         // 100 = normal
         // 50 = fast
+        // 1 = impossible
         let setSnakeSpeed = function(speed_value){
             snake_speed = speed_value;
         }
