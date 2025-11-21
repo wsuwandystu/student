@@ -322,6 +322,22 @@ permalink: /snake/
                     if (snake_dir !== 0)    // not up
                         snake_next_dir = 2; // then switch down
                     break;
+                case 65:    // a
+                    if (snake_dir !== 1)    // not right
+                        snake_next_dir = 3; // then switch left
+                    break;
+                case 87:    // w
+                    if (snake_dir !== 2)    // not down
+                        snake_next_dir = 0; // then switch up
+                    break;
+                case 68:    // d
+                    if (snake_dir !== 3)    // not left
+                        snake_next_dir = 1; // then switch right
+                    break;
+                case 83:    // s
+                    if (snake_dir !== 0)    // not up
+                        snake_next_dir = 2; // then switch down
+                    break;
             }
         }
         /* Dot for Snake part */
