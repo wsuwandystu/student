@@ -81,7 +81,7 @@ permalink: /snake/
         </div>
         <!-- Game Over -->
         <div id="gameover" class="py-4 text-light">
-            <p>Game Over, press <span style="background-color: #FFFFFF; color: #000000">space</span> to try again</p>
+            <p>Game Over, now go touch grass press <span style="background-color: #FFFFFF; color: #000000">space</span> to try again</p>
             <a id="new_game1" class="link-alert">new game</a>
             <a id="setting_menu1" class="link-alert">settings</a>
         </div>
@@ -263,18 +263,18 @@ permalink: /snake/
                 snake[snake.length] = {x: snake[0].x, y: snake[0].y};
                 altScore(++score);
                 addFood();
-                activeDot(food.x, food.y);
+                drawFood(food.x, food.y);
             }
             // Repaint canvas
             ctx.beginPath();
-            ctx.fillStyle = "royalblue";
+            ctx.fillStyle = "#0da824ff";
             ctx.fillRect(0, 0, canvas.width, canvas.height);
             // Paint snake
             for(let i = 0; i < snake.length; i++){
                 activeDot(snake[i].x, snake[i].y);
             }
             // Paint food
-            activeDot(food.x, food.y);
+            drawFood(food.x, food.y);
             // Debug
             //document.getElementById("debug").innerHTML = snake_dir + " " + snake_next_dir + " " + snake[0].x + " " + snake[0].y;
             // Recursive call after speed delay, déjà vu
@@ -324,12 +324,18 @@ permalink: /snake/
                     break;
             }
         }
-        /* Dot for Food or Snake part */
+        /* Dot for Snake part */
         /////////////////////////////////////////////////////////////
         let activeDot = function(x, y){
-            ctx.fillStyle = "#FFFFFF";
+            ctx.fillStyle = "#ffef3cff";
             ctx.fillRect(x * BLOCK, y * BLOCK, BLOCK, BLOCK);
         }
+        /* Dot for Food */
+        /////////////////////////////////////////////////////////////
+        let drawFood = function(x, y){
+                ctx.fillStyle = "#f41010ff";
+                ctx.fillRect(x * BLOCK, y * BLOCK, BLOCK, BLOCK);
+        };
         /* Random food placement */
         /////////////////////////////////////////////////////////////
         let addFood = function(){
@@ -363,7 +369,7 @@ permalink: /snake/
         let setWall = function(wall_value){
             wall = wall_value;
             if(wall === 0){screen_snake.style.borderColor = "#606060";}
-            if(wall === 1){screen_snake.style.borderColor = "#FFFFFF";}
+            if(wall === 1){screen_snake.style.borderColor = "#ffffffff";}
         }
     })();
 </script>
