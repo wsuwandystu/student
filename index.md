@@ -7,6 +7,16 @@ show_reading_time: false
 
 Hi! My name is Warren Suwandy
 
+> Here is a little about me:
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="{{site.baseurl}}/about" style="text-decoration: none;">
+        <div style="background-color: #ff8000ff; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            About me
+        </div>
+    </a>
+</div>
+
 ### Development Environment
 
 > Coding starts with tools, explore these tools and procedures with a click.
