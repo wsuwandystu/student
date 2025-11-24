@@ -7,7 +7,7 @@ comments: true
 
 ## As a conversation Starter
 
-All my life, I have lived here in San Diego, California.
+All my life, I have lived here in San Diego, California, but the three flags I find that also represent me are: the Indonesian flag, Chinese flag, and American flag
 
 <comment>
 Flags are made using Wikipedia images
@@ -60,7 +60,10 @@ Flags are made using Wikipedia images
     // 2. Define a JavaScript object for our http source and our data rows for the Living in the World grid
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
-        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - a very beautiful place"},
+        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - a very beautiful place and where I was born and raised :)"},
+        {"flag": "9/9f/Flag_of_Indonesia.svg", "greeting": "Halo", "description": "Indonesia - where my parents came from"},
+        {"flag": "f/fa/Flag_of_the_People%27s_Republic_of_China.svg", "greeting": "你好", "description": "China - where my grandparents came from"},  
+        {"flag": "a/a4/Flag_of_the_United_States.svg", "greeting": "'Ey, how you doing?", "description": "America - the land and counrty where I was born and raised in"},  
     ];
 
     // 3a. Consider how to update style count for size of container
