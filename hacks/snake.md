@@ -71,6 +71,7 @@ permalink: /snake/
 <h2>Snake</h2>
 <div class="container">
     <p class="fs-4">Score: <span id="score_value">0</span></p>
+    <p class="fs-4">High Score: <span id="high_score_value">0</span></p>
 
     <div class="container bg-secondary" style="text-align:center;">
         <!-- Main Menu -->
@@ -126,6 +127,9 @@ permalink: /snake/
         const SCREEN_SNAKE = 0;
         const screen_snake = document.getElementById("snake");
         const ele_score = document.getElementById("score_value");
+        const ele_high_score = document.getElementById("high_score_value");
+        let high_score = Number(localStorage.getItem("snake_high_score")) || 0;
+        ele_high_score.innerHTML = high_score;
         const speed_setting = document.getElementsByName("speed");
         const wall_setting = document.getElementsByName("wall");
         // HTML Screen IDs (div)
@@ -235,6 +239,7 @@ permalink: /snake/
             if(wall === 1){
                 // Wall on, Game over test
                 if (snake[0].x < 0 || snake[0].x === canvas.width / BLOCK || snake[0].y < 0 || snake[0].y === canvas.height / BLOCK){
+                    altScore(score);        //Ensures high score update
                     showScreen(SCREEN_GAME_OVER);
                     return;
                 }
@@ -376,8 +381,17 @@ permalink: /snake/
         /* Update Score */
         /////////////////////////////////////////////////////////////
         let altScore = function(score_val){
+            //Update current score
             ele_score.innerHTML = String(score_val);
+
+            //Update high score when beaten
+            if (score_val > high_score) {
+                high_score = score_val;
+                localStorage.setItem("snake_high_score", high_score);
+                ele_high_score.innerHTML = String(high_score);
+            }
         }
+        
         /////////////////////////////////////////////////////////////
         // Change the snake speed...
         // 150 = slow
