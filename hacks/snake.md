@@ -78,12 +78,14 @@ permalink: /snake/
             <p>Welcome to Snake,you will fail press <span style="background-color: #FFFFFF; color: #000000">space</span> to begin</p>
             <a id="new_game" class="link-alert">new game</a>
             <a id="setting_menu" class="link-alert">settings</a>
+            <a href="{{site.baseurl}}/" class="link-alert">index</a>
         </div>
         <!-- Game Over -->
         <div id="gameover" class="py-4 text-light">
             <p>Game Over, now go touch grass press <span style="background-color: #FFFFFF; color: #000000">space</span> to try again</p>
             <a id="new_game1" class="link-alert">new game</a>
             <a id="setting_menu1" class="link-alert">settings</a>
+            <a href="{{site.baseurl}}/" class="link-alert">index</a>
         </div>
         <!-- Play Screen -->
         <canvas id="snake" class="wrap" width="320" height="320" tabindex="1"></canvas>
@@ -91,6 +93,7 @@ permalink: /snake/
         <div id="setting" class="py-4 text-light">
             <p>Settings Screen, press <span style="background-color: #FFFFFF; color: #000000">space</span> to go back to playing</p>
             <a id="new_game2" class="link-alert">new game</a>
+            <a href="{{site.baseurl}}/" class="link-alert">index</a>
             <br>
             <p>Speed:
                 <input id="speed1" type="radio" name="speed" value="120" checked/>

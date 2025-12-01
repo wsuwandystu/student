@@ -123,3 +123,13 @@ Gallery of Pics, scroll to the right for more ...
   <img src="{{site.baseurl}}/images/about/MeandPapa.jpg" alt="Image 4">
   <img src="{{site.baseurl}}/images/about/Plane.jpg" alt="Image 5">
 </div>
+
+### Return to Index
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 15px 0;">
+    <a href="{{site.baseurl}}/index" style="text-decoration: none;">
+        <div style="background-color: #2413c0ff; color: yellow; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Index
+        </div>
+    </a>
+</div>
