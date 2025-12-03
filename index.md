@@ -7,12 +7,17 @@ show_reading_time: false
 
 Hi! My name is Warren Suwandy
 
-> Here is a little about me:
+> Here is my journey through life so far:
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="{{site.baseurl}}/about" style="text-decoration: none;">
         <div style="background-color: #ff8000ff; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             About me
+        </div>
+    </a>
+    <a href="{{site.baseurl}}/tools/journey" style="text-decoration: none;">
+        <div style="background-color: #d4d719ff; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Tools Journey
         </div>
     </a>
 </div>
@@ -46,6 +51,11 @@ Hi! My name is Warren Suwandy
     <a href="{{site.baseurl}}/snake" style="text-decoration: none;">
         <div style="background-color: #00FF00; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Snake Game
+        </div>
+    </a>
+    <a href="{{site.baseurl}}/tetris" style="text-decoration: none;">
+        <div style="background-color: #000000ff; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Tetris
         </div>
     </a>
     <a href="{{site.baseurl}}/turtle" style="text-decoration: none;">
