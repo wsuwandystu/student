@@ -51,5 +51,12 @@ flowchart TD
     %% Arrows: commands
     C --> Ccmd
     D <--> Dcmd
-
 ```
+### Return to Index
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 15px 0;">
+    <a href="{{site.baseurl}}/index" style="text-decoration: none;">
+        <div style="background-color: #000000ff; color: yellow; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Index
+        </div>
+    </a>
