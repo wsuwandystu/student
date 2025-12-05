@@ -53,11 +53,7 @@ Hi! My name is Warren Suwandy
             Snake Game
         </div>
     </a>
-    <a href="{{site.baseurl}}/tetris" style="text-decoration: none;">
-        <div style="background-color: #000000ff; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
-            Tetris
-        </div>
-    </a>
+
     <a href="{{site.baseurl}}/turtle" style="text-decoration: none;">
         <div style="background-color: #FF0000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Turtle
