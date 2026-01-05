@@ -397,7 +397,6 @@ permalink: /snake/
         // 150 = slow
         // 100 = normal
         // 50 = fast
-        // 1 = impossible
         let setSnakeSpeed = function(speed_value){
             snake_speed = speed_value;
         }
