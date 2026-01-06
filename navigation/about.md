@@ -100,10 +100,50 @@ Flags are made using Wikipedia images
 ### Journey through Life
 
 Here is what I have done throughout my life so far:
-- 🏫📚The preschool I went to was kidscare club
 - 🏫📚From Kindergarden to eighth grade I have been to the same school, Design39 2016-2025
 - 🏫📚I attend Del Norte High School and am in the ninth grade 2025-2026
-- 
+<div class="grid-container" id="journey_grid"></div>
+
+<script>
+  // Connect to the Journey grid container
+  const journeyContainer = document.getElementById("journey_grid");
+
+  // Local images instead of Wikipedia
+  const journeyImages = [
+    {
+      img: "{{site.baseurl}}/images/journey/D39CLogo.png",
+      title: "Design39 Campus",
+      description: "K–8 education (2016–2025)"
+    },
+    {
+      img: "{{site.baseurl}}/images/journey/DNHSLogo.png",
+      title: "Del Norte High School",
+      description: "High school and where I am now(2025–2026)"
+    }
+  ];
+
+  // Build grid items
+  for (const item of journeyImages) {
+    const gridItem = document.createElement("div");
+    gridItem.className = "grid-item";
+
+    const img = document.createElement("img");
+    img.src = item.img;
+    img.alt = item.title;
+
+    const title = document.createElement("p");
+    title.textContent = item.title;
+
+    const description = document.createElement("p");
+    description.textContent = item.description;
+
+    gridItem.appendChild(img);
+    gridItem.appendChild(title);
+    gridItem.appendChild(description);
+
+    journeyContainer.appendChild(gridItem);
+  }
+</script>
 
 ### Culture, Family, and Fun
 
