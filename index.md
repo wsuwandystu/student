@@ -20,6 +20,11 @@ Hi! My name is Warren Suwandy
             Tools Journey
         </div>
     </a>
+    <a href="{{site.baseurl}}/WSblog" style="text-decoration: none;">
+        <div style="background-color: rgb(25, 215, 161); color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Personal Blogs
+        </div>
+    </a>
 </div>
 
 ### Development Environment
@@ -53,15 +58,13 @@ Hi! My name is Warren Suwandy
             Snake Game
         </div>
     </a>
-    
     <a href="{{site.baseurl}}/turtle" style="text-decoration: none;">
         <div style="background-color: #FF0000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Turtle
         </div>
     </a>
-    
     <a href="{{site.baseurl}}/connect4" style="text-decoration: none;">
-        <div style="background-color: #ffa200ff; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+        <div style="background-color: #ffa200ff; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Connect 4
         </div>
     </a>
