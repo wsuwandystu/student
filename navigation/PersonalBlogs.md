@@ -1,11 +1,11 @@
 ---
 layout: post
-title: CSSE Blogs
+title: CSSE Blogs Menu
 permalink: /WSblog/
 comments: true
 ---
 
-## My Personal CSSE Blogs
+### Personal CSSE Blogs
 
 These are my personal blogs from the CSSE class of 2025-2026:
 
@@ -23,6 +23,16 @@ These are my personal blogs from the CSSE class of 2025-2026:
     <a href="{{site.baseurl}}/WSachievements" style="text-decoration: none;">
         <div style="background-color: rgb(242, 156, 50); color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Personal Achievements
+        </div>
+    </a>
+</div>
+
+### Return to Index
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 15px 0;">
+    <a href="{{site.baseurl}}/index" style="text-decoration: none;">
+        <div style="background-color: #000000ff; color: yellow; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Index
         </div>
     </a>
 </div>
