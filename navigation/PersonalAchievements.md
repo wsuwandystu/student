@@ -12,11 +12,21 @@ Throughout this trimester, I have made many personal achievements that I am prou
 ### My About Page
 Shared a bit about my life
 
+  <img src="{{site.baseurl}}/images/blog/About.jpg" alt="Image 1">
+
 ### Snake
 Was for fun
 
+<div class="image-gallery">
+  <img src="{{site.baseurl}}/images/blog/snakegame.jpg" alt="Image 1">
+  <img src="{{site.baseurl}}/images/blog/snakesettings.png" alt="Image 2">  
+
 ### Group Project
-Connect 4
+Connect 4 and a little bit about the others work
+
+<div class="image-gallery">
+  <img src="{{site.baseurl}}/images/blog/connect4.jpg" alt="Image 1">
+  <img src="{{site.baseurl}}/images/blog/groupsnake.png" alt="Image 2">  
 
 ### Homework 
 Was able to understand all the material
