@@ -23,6 +23,7 @@ At the beginning of CSSE we worked on our about pages to share a little bit abou
     </a>
 </div>
 
+<!-- Snake -->
 ### Snake
 
 After finishing my about page, I worked on looked at the website and found the snake game. From there, I decided I could do something to make it seem more fun and improve it so I added the impossible speed, changed the colors, and added a high score.
@@ -39,6 +40,7 @@ After finishing my about page, I worked on looked at the website and found the s
     </a>
 </div>
 
+<!-- Group Project  -->
 ### Group Project
 
 
@@ -47,10 +49,12 @@ After finishing my about page, I worked on looked at the website and found the s
   <img src="{{site.baseurl}}/images/blog/connect4.jpg" alt="Image 1">
   <img src="{{site.baseurl}}/images/blog/groupsnake.png" alt="Image 2">  
 
+<!-- Homework -->
 ### Homework 
 
 Was able to understand all the material
 
+<!-- Menu  -->
 ### Blog Menu
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
