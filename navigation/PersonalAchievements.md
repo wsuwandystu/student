@@ -5,9 +5,21 @@ permalink: /WSachievements/
 comments: true
 ---
 
-### My Personal Achievements in CSSE
+## My Personal Achievements in CSSE
 
-Blog goes here
+Throughout this trimester, I have made many personal achievements that I am proud of.
+
+### My About Page
+Shared a bit about my life
+
+### Snake
+Was for fun
+
+### Group Project
+Connect 4
+
+### Homework 
+Was able to understand all the material
 
 ### Blog Menu
 

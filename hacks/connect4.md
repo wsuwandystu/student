@@ -340,7 +340,7 @@ permalink: /connect4/
     if (message.toLowerCase().includes('red')) emoji = '🔴';
     else if (message.toLowerCase().includes('yellow')) emoji = '🟡';
 
-    output.innerHTML = `<span style="font-weight:bold; text-shadow: 0 0 5px #fff;">${emoji} ${message}</span>`;
+    output.innerHTML = `<span style="font-weight:bold; text-shadow: 0 0 5px #ff0000;">${emoji} ${message}</span>`;
   }
 
   // Restart confirmation
