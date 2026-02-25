@@ -25,7 +25,7 @@ At the beginning of CSSE we worked on our about pages to share a little bit abou
 
 ### Snake
 
-
+After finishing my about page, I worked on looked at the website and found the snake game. From there, I decided I could do something to make it seem more fun and improve it so I added the impossible speed, changed the colors, and added a high score.
 
 <div class="image-gallery">
   <img src="{{site.baseurl}}/images/blog/snakegame.jpg" alt="Image 1">
@@ -41,7 +41,7 @@ At the beginning of CSSE we worked on our about pages to share a little bit abou
 
 ### Group Project
 
-Connect 4 and a little bit about the others work
+
 
 <div class="image-gallery">
   <img src="{{site.baseurl}}/images/blog/connect4.jpg" alt="Image 1">
