@@ -23,6 +23,8 @@ At the beginning of CSSE we worked on our about pages to share a little bit abou
     </a>
 </div>
 
+<br>
+
 <!-- Snake -->
 ### Snake
 
@@ -31,6 +33,7 @@ After finishing my about page, I worked on looked at the website and found the s
 <div class="image-gallery">
   <img src="{{site.baseurl}}/images/blog/snakegame.jpg" alt="Image 1">
   <img src="{{site.baseurl}}/images/blog/snakesettings.png" alt="Image 2">  
+</div>
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="{{site.baseurl}}/snake" style="text-decoration: none;">
@@ -40,14 +43,18 @@ After finishing my about page, I worked on looked at the website and found the s
     </a>
 </div>
 
+<br>
+
 <!-- Group Project  -->
 ### Group Project
-
-
+During the group project, me, Finn, Ahmed, Rohan, and Matt made a few games. We worked on Breakout, Cookie-clicker, Rock Paper Scissors, and Connect 4. I personally worked on the Connect 4 and am just proud of how it plays out.
 
 <div class="image-gallery">
   <img src="{{site.baseurl}}/images/blog/connect4.jpg" alt="Image 1">
   <img src="{{site.baseurl}}/images/blog/groupsnake.png" alt="Image 2">  
+</div>
+
+<br>
 
 <!-- Homework -->
 ### Homework 
