@@ -59,7 +59,7 @@ During the group project, me, Finn, Ahmed, Rohan, and Matt made a few games. We 
 <!-- Homework -->
 ### Homework 
 
-Was able to understand all the material
+For the homework, I felt I understood the work well and was able to successfully work on them.
 
 <!-- Menu  -->
 ### Blog Menu
